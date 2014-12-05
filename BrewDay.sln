@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{73B15B27-2542-4B5B-8FF7-803B2D662CA2}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "brewday.resource.endpoint", "src\brewday.resource.endpoint\brewday.resource.endpoint.csproj", "{8D892FF4-15D0-481C-8BE8-A616462AAEC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "brewday.auth.endpoint", "src\brewday.auth.endpoint\brewday.auth.endpoint.csproj", "{5A366435-5B4D-41D9-A475-46072E9FBCF8}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "brewday.calculations", "src\brewday.calculations\brewday.calculations.fsproj", "{804FD3A6-72D0-4BD9-A95A-3D7D40B441C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D892FF4-15D0-481C-8BE8-A616462AAEC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D892FF4-15D0-481C-8BE8-A616462AAEC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D892FF4-15D0-481C-8BE8-A616462AAEC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D892FF4-15D0-481C-8BE8-A616462AAEC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A366435-5B4D-41D9-A475-46072E9FBCF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A366435-5B4D-41D9-A475-46072E9FBCF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A366435-5B4D-41D9-A475-46072E9FBCF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A366435-5B4D-41D9-A475-46072E9FBCF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{804FD3A6-72D0-4BD9-A95A-3D7D40B441C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{804FD3A6-72D0-4BD9-A95A-3D7D40B441C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{804FD3A6-72D0-4BD9-A95A-3D7D40B441C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{804FD3A6-72D0-4BD9-A95A-3D7D40B441C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
