@@ -68,5 +68,25 @@ namespace brewday.resource.endpoint.Controllers
             return Functions.requiredWater(targetBatchSize, estTrubLoss, grainWeight,  boilTime, estLossToEquipment);
         }
 
+        [HttpGet]
+        [Route("hoputilization")]
+        public double HopUtilization(double boilGravity, double boilTime)
+        {
+            return Functions.HopUtilization(boilGravity, boilTime);
+        }
+
+        /// <summary>
+        /// Calculates the amount of extract (in lbs) to hit desired total gravity
+        /// </summary>
+        /// <param name="totalGravityTarget">In gravity units</param>
+        /// <param name="totalGravityMash">In gravity units</param>
+        /// <param name="extractGUContribution">GU contribution of extract</param>
+        /// <returns>Amount of extract in lbs</returns>
+        [HttpGet]
+        [Route("totalextractrequired")]
+        public double TotalExtractRequired(double totalGravityTarget, double totalGravityMash, double extractGUContribution)
+        {
+            return Functions.Extractlbs(totalGravityTarget, totalGravityMash, extractGUContribution);
+        }
     }
 }
