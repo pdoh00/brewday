@@ -63,14 +63,14 @@ namespace brewday.android
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f060004
-			public const int button1 = 2131099652;
-			
 			// aapt resource value: 0x7f060001
-			public const int editText1 = 2131099649;
+			public const int EmailEditText = 2131099649;
+			
+			// aapt resource value: 0x7f060004
+			public const int LoginButton = 2131099652;
 			
 			// aapt resource value: 0x7f060003
-			public const int editText2 = 2131099651;
+			public const int PasswordEditText = 2131099651;
 			
 			// aapt resource value: 0x7f060000
 			public const int textView1 = 2131099648;

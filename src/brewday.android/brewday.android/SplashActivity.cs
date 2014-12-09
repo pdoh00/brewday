@@ -23,8 +23,8 @@ namespace brewday.android
 		{
 			base.OnCreate (bundle);
 
-			Thread.Sleep (10000);
-			StartActivity (typeof(MainActivity));
+			Thread.Sleep (1000);
+			StartActivity (typeof(LoginActivity));
 		}
 	}
 }
